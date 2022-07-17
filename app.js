@@ -44,7 +44,6 @@ const gridMatrix = [
     ];
 
 
-
 class GridSystem {
     constructor(matrix) {
         this.matrix = matrix;
