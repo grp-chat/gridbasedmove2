@@ -50,7 +50,7 @@ class GridSystem {
         this.matrix = matrix;
         this.cellSize = 40;
         this.padding = 2;
-        this.startingSteps = 100;
+        this.startingSteps = 0;
         this.winY = 11;
         this.winX = 37;
 
@@ -66,7 +66,7 @@ class GridSystem {
         this.p6 = { x: 3, y: 19, lable: 7, id: this.extraArr[5], steps: this.startingSteps };
         this.p7 = { x: 3, y: 18, lable: 8, id: this.extraArr[6], steps: this.startingSteps };
         this.p8 = { x: 1, y: 19, lable: 9, id: this.extraArr[7], steps: this.startingSteps };
-        this.p9 = { x: 1, y: 18, lable: 10, id: this.extraArr[8], steps: this.startingSteps };
+        this.p9 = { x: 2, y: 19, lable: 10, id: this.extraArr[8], steps: this.startingSteps };
         
         this.playersArr = [this.p1, this.p2, this.p3, this.p4, this.p5, this.p6, this.p7, this.p8, this.p9];
 
