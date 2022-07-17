@@ -50,7 +50,7 @@ class GridSystem {
         this.matrix = matrix;
         this.cellSize = 40;
         this.padding = 2;
-        this.startingSteps = 0;
+        this.startingSteps = 100;
         this.winY = 11;
         this.winX = 37;
 

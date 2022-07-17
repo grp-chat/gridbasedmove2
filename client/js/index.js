@@ -208,14 +208,14 @@ class GridSystemClient {
 
         this.p1 = { color: "grey", lable: 2, id: this.students[0] };
 
-        this.p2 = { color: "teal", lable: 3, id: this.students[1] };
+        this.p2 = { color: "cyan", lable: 3, id: this.students[1] };
         this.p3 = { color: "orange", lable: 4, id: this.students[2] };
         this.p4 = { color: "pink", lable: 5, id: this.students[3] };
-        this.p5 = { color: "blue", lable: 6, id: this.students[4] };
+        this.p5 = { color: "lightyellow", lable: 6, id: this.students[4] };
 
         this.p6 = { color: "royalblue", lable: 7, id: this.students[5] };
         this.p7 = { color: "yellow", lable: 8, id: this.students[6] };
-        this.p8 = { color: "purple", lable: 9, id: this.students[7] };
+        this.p8 = { color: "fuchsia", lable: 9, id: this.students[7] };
     
         this.playersArr = [this.p1, this.p2, this.p3, this.p4, this.p5, this.p6, this.p7, this.p8];
         this.moveSwitch = 0;
