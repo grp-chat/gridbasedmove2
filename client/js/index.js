@@ -27,7 +27,7 @@ const promptMsg = () => {
     const H = {pinNumber:'4048', nickname: 'H'};
     const TCR = {pinNumber:'8', nickname: 'TCR'};
 
-    const loginNames = ["LOK", "KSY", "KN", "JT", "CJH", "LSH", "KX"];
+    const loginNames = ["LOK", "KSY", "KN", "JT", "CJH", "LSH", "KX", "TJY"];
 
     const s1 = {pinNumber:'1198', nickname: loginNames[0]};
     const s2 = {pinNumber:'6139', nickname: loginNames[1]};
@@ -36,6 +36,7 @@ const promptMsg = () => {
     const s5 = {pinNumber:'2105', nickname: loginNames[4]};
     const s6 = {pinNumber:'1529', nickname: loginNames[5]};
     const s7 = {pinNumber:'2167', nickname: loginNames[6]};
+    const s8 = {pinNumber:'6588', nickname: loginNames[7]};
 
 
     var nick = prompt("Please enter your pin number:");
@@ -45,7 +46,7 @@ const promptMsg = () => {
     }
     
     sat2PM = [LK, LXR, SZF, JHA, JL, JV, H, TCR];
-    sun230PM = [s1, s2, s3, s4, s5, s6, s7];
+    sun230PM = [s1, s2, s3, s4, s5, s6, s7, s8];
 
     sat2PM.forEach((login) => {
         if (nick === login.pinNumber) {
@@ -204,7 +205,7 @@ class GridSystemClient {
         //this.topContext = this.#getContext(0, 0, "#111", true);
         this.cellSize = 27;
         this.padding = 2;
-        this.students = ["TCR", "LOK", "KSY", "KN", "JT", "CJH", "LSH", "KX"];
+        this.students = ["TCR", "LOK", "KSY", "KN", "JT", "CJH", "LSH", "KX", "TJY"];
 
         this.p1 = { color: "grey", lable: 2, id: this.students[0] };
 
@@ -216,8 +217,10 @@ class GridSystemClient {
         this.p6 = { color: "royalblue", lable: 7, id: this.students[5] };
         this.p7 = { color: "yellow", lable: 8, id: this.students[6] };
         this.p8 = { color: "fuchsia", lable: 9, id: this.students[7] };
+
+        this.p9 = { color: "white", lable: 10, id: this.students[8] };
     
-        this.playersArr = [this.p1, this.p2, this.p3, this.p4, this.p5, this.p6, this.p7, this.p8];
+        this.playersArr = [this.p1, this.p2, this.p3, this.p4, this.p5, this.p6, this.p7, this.p8, this.p9];
         this.moveSwitch = 0;
     }
 
